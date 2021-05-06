@@ -1,4 +1,4 @@
 package findtheuknown;
 
-public class story {
+public class Land {
 }

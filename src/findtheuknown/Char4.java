@@ -1,6 +1,6 @@
 package findtheuknown;
 
-public class char4 {
+public class Char4 {
 
 
     String charName4 = "Benjamin Leonardo";
@@ -16,7 +16,7 @@ public class char4 {
 
 
 
-    public char4 (String charName4, String gender4, int age4, String birthplace4, double weight4, double height4) {
+    public Char4(String charName4, String gender4, int age4, String birthplace4, double weight4, double height4) {
 
         this.charName4 = charName4;
         this.gender4 = gender4;
