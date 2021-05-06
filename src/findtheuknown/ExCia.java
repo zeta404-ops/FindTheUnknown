@@ -1,6 +1,6 @@
 package findtheuknown;
 
-public class TheUnkownman {
+public class ExCia {
 
     String charName5 = "Unknown";
 
@@ -14,7 +14,7 @@ public class TheUnkownman {
 
 
 
-    public TheUnkownman (String charName5, String gender5, String birthplace5, double weight5, double height5){
+    public ExCia(String charName5, String gender5, String birthplace5, double weight5, double height5){
 
         this.charName5 = charName5;
         this.gender5 = gender5;
@@ -23,5 +23,6 @@ public class TheUnkownman {
         this.height5= height5;
 
     }
+
 
 }
