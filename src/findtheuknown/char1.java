@@ -24,4 +24,8 @@ public class char1 {
         this.height1 = height1;
 
     }
+    @Override
+    public String toString(){
+        return "Name: " + charName1 + "\nGender: " + gender1 + "\nAge: " + age1 + "\nBirthplace: " + birthplace1 + "\nWeight: " + weight1 + "kg\nHeight: " + height1 + "m";
+    }
     }
