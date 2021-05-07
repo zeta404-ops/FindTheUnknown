@@ -1,12 +1,13 @@
 
 package findtheunknown;
 
+import java.util.Scanner;
 
 public class Story {
 
 
 
-
+    Scanner sc = new Scanner(System.in);
 
     public static void StoryBegin() {
 
@@ -92,6 +93,8 @@ public class Story {
         {
             Thread.currentThread().interrupt();
         }
+
+
 
     }
 
