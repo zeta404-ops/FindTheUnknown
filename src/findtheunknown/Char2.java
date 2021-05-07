@@ -1,4 +1,4 @@
-package findtheuknown;
+package findtheunknown;
 
 public class Char2 {
 

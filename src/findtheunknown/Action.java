@@ -1,6 +1,4 @@
-package findtheuknown;
-
-import java.util.concurrent.TimeUnit;
+package findtheunknown;
 
 public class Action {
     public static void fightBegin() {

@@ -1,4 +1,4 @@
-package findtheuknown;
+package findtheunknown;
 
 public class Story {
     public static void StoryBegin() {
