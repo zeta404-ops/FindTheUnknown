@@ -51,7 +51,47 @@ public class Story {
         }
         System.out.println("He went missing and now he is a thread to the nation");
 
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
 
+        System.out.println("SEAL team six-bravo is loading to the plane with 4 of the best SEAL members");
+
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("Be ready to jump, because its going to be a ruff way down.");
+
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("Press f to jump!");
+
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
 
     }
 
