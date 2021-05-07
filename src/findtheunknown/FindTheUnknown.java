@@ -33,8 +33,6 @@ public class FindTheUnknown {
         Action ac = new Action();
         Action.fightBegin();
         /*story telling*/
-        Story st = new Story();
-        Story.StoryBegin();
 
 
 

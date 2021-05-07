@@ -33,6 +33,15 @@ public class Action {
         }
         System.out.println("1");
 
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
     }
 
 
