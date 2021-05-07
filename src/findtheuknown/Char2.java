@@ -16,7 +16,7 @@ public class Char2 {
     double weight2 = 86.03;
     double height2 = 1.52;
 
-    public Char2(String charName, String gender2, int age2, String birthplace2, double weight2, double height2) {
+    public Char2(String charName2, String gender2, int age2, String birthplace2, double weight2, double height2) {
 
         this.charName2 = charName2;
         this.gender2 = gender2;
