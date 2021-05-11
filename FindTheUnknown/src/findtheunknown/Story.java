@@ -8,7 +8,7 @@ public class Story {
 
 
     public static void StoryBegin() {
-/*
+
         System.out.println("Place: Norlisk ");
         try {
             Thread.sleep(2000);
@@ -70,8 +70,6 @@ public class Story {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
-
- */
         Scanner sc = new Scanner(System.in);
 
         String jumping = "f";
@@ -82,7 +80,7 @@ public class Story {
                 String pf = sc.nextLine();
 
                 if (jumping.equals(pf)) {
-                    System.out.println("Great now you are in the skies dropping into the AO!");
+                    System.out.println("Great now you are in the skies dropping into the AO");
                     break;
                 } else {
                     System.out.println("Please press f exactly like how its written!");
@@ -92,6 +90,20 @@ public class Story {
 
             }
         }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("You are on the ground lets do this!");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("Your team is now near a car press f to get in the car ");
 
 
     }
