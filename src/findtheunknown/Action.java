@@ -3,7 +3,7 @@ package findtheunknown;
 public class Action {
     public static void fightBegin() {
     {
-
+/*
         System.out.println("Now let's begin");
         try
         {
@@ -41,7 +41,7 @@ public class Action {
         {
             Thread.currentThread().interrupt();
         }
-
+*/
     }
 
 

@@ -90,5 +90,21 @@ public class Story {
 
             }
         }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("You are on the ground lets do this!");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("Your team is now near a car press f to get in the car ");
+
+
     }
 }
