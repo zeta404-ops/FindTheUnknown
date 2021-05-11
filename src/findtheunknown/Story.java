@@ -215,7 +215,9 @@ public class Story {
             }
         }
 */
+
         /* selecting weapon class*/
+        /*
         System.out.println();
         System.out.println("Choose a class to fight with by typing the number of the classes from 1-3.");
         System.out.println();
@@ -239,6 +241,8 @@ public class Story {
                 break;
         }
 
+
+         */
         /*options for fighting or exiting*/
         System.out.println();
         System.out.println("Now select what do you want to do!");
@@ -266,6 +270,7 @@ public class Story {
                 Sneak snk = new Sneak();
                 snk.sneakBegin();
                 break;
+
         }
 
 

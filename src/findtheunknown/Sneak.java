@@ -1,15 +1,20 @@
 package findtheunknown;
 
+
+
+import java.lang.invoke.SwitchPoint;
+
 import java.util.Scanner;
 
 public class Sneak {
 
     Scanner sc = new Scanner(System.in);
+    private Object String;
 
     public void sneakBegin() {
 
-          /*sneak tactics*/
-
+        /*sneak tactics and beginning*/
+        System.out.println();
         System.out.println("Okay let's start the plan!");
 
         try {
@@ -17,6 +22,9 @@ public class Sneak {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
+
+
+        /* opening the phone*/
 
         String laptop = "i";
 
@@ -34,12 +42,15 @@ public class Sneak {
 
         }
 
+        /*delay*/
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
 
+        /*writing codes to the console*/
 
         String thisCode = "3848539";
 
@@ -56,6 +67,7 @@ public class Sneak {
             }
 
         }
+          /*writing codes to the console*/
 
         String thisCode2 = "89237";
 
@@ -68,10 +80,39 @@ public class Sneak {
                 break;
             } else {
                 System.out.println("Please write the code exactly like how its written!");
-
             }
-
         }
+
+        /*text*/
+
+        System.out.println();
+        System.out.println("We are getting closer to the backdoor of the warehouse");
+        System.out.println();
+
+        /*opening door*/
+
+        String thisCode3 = "eeee";
+
+        while (true) {
+
+
+            System.out.println("Open the door by tapping e four times if you want to open the door quietly");
+
+            String pf = sc.nextLine();
+
+
+            if (thisCode3.equals(pf)) {
+                System.out.println("You opened the door quietly");
+                break;
+            } else {
+                System.out.println("You made too much noise! restarting mission!");
+                sneakBegin();
+            }
+        }
+
+
+
+
 
 
     }
