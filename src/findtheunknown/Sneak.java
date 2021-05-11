@@ -1,15 +1,17 @@
 package findtheunknown;
 
 
+import java.lang.invoke.SwitchPoint;
 import java.util.Scanner;
 
 public class Sneak {
 
     Scanner sc = new Scanner(System.in);
+    private Object String;
 
     public void sneakBegin() {
 
-          /*sneak tactics*/
+        /*sneak tactics*/
 
         System.out.println("Okay let's start the plan!");
 
@@ -18,7 +20,6 @@ public class Sneak {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
-
 
 
         String laptop = "i";
@@ -74,9 +75,21 @@ public class Sneak {
 
             }
 
+
+            System.out.println("We are getting closer to the backdoor of the warehouse");
+
+            System.out.println("Open the door by tapping e four times if you want to open the door quietly");
+
+            String a = sc.nextLine();
+
+            if (a.equals("eeee")) {
+                System.out.println("You opened the door quietly");
+            } else if (a.equals(String)) {
+                System.out.println("Made too musch noise");
+
+
+            }
         }
-
-
     }
 }
 
