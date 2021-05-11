@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Story {
 
-
-    public static void StoryBegin() {
+    Scanner sc = new Scanner(System.in);
+    public void StoryBegin() {
 
         System.out.println("Place: Norlisk ");
         try {
@@ -69,9 +69,6 @@ public class Story {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
-
-
-        Scanner sc = new Scanner(System.in);
 
         String jumping = "f";
 
@@ -142,7 +139,7 @@ public class Story {
             }
         }
         try {
-            Thread.sleep(120000);
+            Thread.sleep(3000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }

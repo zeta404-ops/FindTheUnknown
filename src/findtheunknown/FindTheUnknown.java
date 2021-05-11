@@ -34,7 +34,7 @@ public class FindTheUnknown {
         Action.fightBegin();
         /*story telling*/
         Story sc = new Story();
-        Story.StoryBegin();
+        sc.StoryBegin();
 
 
     }
