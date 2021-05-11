@@ -29,9 +29,7 @@ public class FindTheUnknown {
         System.out.println(c4);
         System.out.println();
 /*
-       /*action class*/
-        Action ac = new Action();
-        Action.fightBegin();
+
         /*story telling*/
         Story sc = new Story();
         sc.StoryBegin();

@@ -6,7 +6,53 @@ import java.util.Scanner;
 public class Story {
 
     Scanner sc = new Scanner(System.in);
+
     public void StoryBegin() {
+/* beginning*/
+        /*
+        System.out.println("Now let's begin");
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("3");
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("2");
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+        System.out.println("1");
+
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+
+
+         */
+              /*time and place*/
+
+        /*
 
         System.out.println("Place: Norlisk ");
         try {
@@ -24,6 +70,9 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
+         */
+               /*texts*/
+        /*
         System.out.println("We are the SEAL Team Six-Bravo");
         try {
             Thread.sleep(3000);
@@ -70,6 +119,11 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
+         */
+           /*small actions*/
+        /*
+
+
         String jumping = "f";
 
         {
@@ -103,6 +157,7 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
+
         String getInTheCar = "f";
 
         while (true) {
@@ -120,7 +175,7 @@ public class Story {
 
         }
         try {
-            Thread.sleep(3000);
+            Thread.sleep(120000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
@@ -159,5 +214,61 @@ public class Story {
 
             }
         }
+*/
+        /* selecting weapon class*/
+        System.out.println();
+        System.out.println("Choose a class to fight with by typing the number of the classes from 1-3.");
+        System.out.println();
+        System.out.println("First class is M4A4");
+        System.out.println("Second class is Scar-L");
+        System.out.println("Third class is HK17");
+
+         Story selectClass = new Story();
+
+        int Story = selectClass.sc.nextInt(4);
+
+        switch(Story){
+            case 1:
+                System.out.println("You selected M4A4 with Holographic and angled grip");
+                break;
+            case 2:
+                System.out.println("You selected Scar-L with Red-Dot and vertical grip");
+                break;
+            case 3:
+                System.out.println("You selected HK17 with 2x and Bipod");
+                break;
+        }
+
+        /*options for fighting or exiting*/
+        System.out.println();
+        System.out.println("Now select what do you want to do!");
+        System.out.println();
+        System.out.println("Fight: Fight the Ex-Cia");
+        System.out.println("Exit: Get out of the area");
+        System.out.println("Sneak: sneaks and tries to kidnap the Ex-Cia");
+
+         Story selectDoing = new Story();
+
+        String select = sc.nextLine();
+
+        switch(select){
+            case "Fight":
+                System.out.println("You selected to fight the Ex-Cia");
+                Action ac = new Action();
+                ac.fightBegin();
+                break;
+            case "Exit":
+                System.out.println("You selected to get out of the area");
+                System.exit(0);
+                break;
+            case "Sneak":
+                System.out.println("You selected to sneak and kidnap the Ex-Cia");
+                break;
+        }
+
+
+
+
     }
+
 }

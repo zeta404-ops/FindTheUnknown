@@ -1,4 +1,4 @@
 package findtheunknown;
 
-public class Land {
+public class Sneak {
 }
