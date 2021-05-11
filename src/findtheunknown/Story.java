@@ -263,6 +263,8 @@ public class Story {
                 break;
             case "Sneak":
                 System.out.println("You selected to sneak and kidnap the Ex-Cia");
+                Sneak snk = new Sneak();
+                snk.sneakBegin();
                 break;
         }
 
