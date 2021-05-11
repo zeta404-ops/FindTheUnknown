@@ -9,7 +9,7 @@ public class Story {
 
     public void StoryBegin() {
 /* beginning*/
-        /*
+
         System.out.println("Now let's begin");
         try
         {
@@ -49,10 +49,10 @@ public class Story {
         }
 
 
-         */
+
               /*time and place*/
 
-        /*
+
 
         System.out.println("Place: Norlisk ");
         try {
@@ -70,9 +70,9 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
-         */
+
                /*texts*/
-        /*
+
         System.out.println("We are the SEAL Team Six-Bravo");
         try {
             Thread.sleep(3000);
@@ -119,9 +119,9 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
-         */
+
            /*small actions*/
-        /*
+
 
 
         String jumping = "f";
@@ -214,10 +214,10 @@ public class Story {
 
             }
         }
-*/
+
 
         /* selecting weapon class*/
-        /*
+
         System.out.println();
         System.out.println("Choose a class to fight with by typing the number of the classes from 1-3.");
         System.out.println();
@@ -242,7 +242,7 @@ public class Story {
         }
 
 
-         */
+
         /*options for fighting or exiting*/
         System.out.println();
         System.out.println("Now select what do you want to do!");
