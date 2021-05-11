@@ -1,6 +1,5 @@
 package findtheunknown;
 
-
 import java.util.Scanner;
 
 public class Sneak {
@@ -18,8 +17,6 @@ public class Sneak {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
-
-
 
         String laptop = "i";
 
