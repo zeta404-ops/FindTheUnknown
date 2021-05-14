@@ -25,6 +25,15 @@ public class Char2 {
         this.weight2 = weight2;
         this.height2 = height2;
     }
+
+
+    public String getCharName2() {
+        return charName2;
+    }
+
+
+
+
     @Override
     public String toString(){
         return "Name: " + charName2 + "\nGender: " + gender2 + "\nAge: " + age2 + "\nBirthplace: " + birthplace2 + "\nWeight: " + weight2 + "kg\nHeight: " + height2 + "m";

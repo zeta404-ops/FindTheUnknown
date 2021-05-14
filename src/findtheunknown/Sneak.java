@@ -91,12 +91,12 @@ public class Sneak {
 
         /*opening door*/
 
-        String thisCode3 = "eeee";
+        String thisCode3 = "ee";
 
         while (true) {
 
 
-            System.out.println("Open the door by tapping e four times if you want to open the door quietly");
+            System.out.println("Open the door by tapping e two times if you want to open the door quietly");
 
             String pf = sc.nextLine();
 

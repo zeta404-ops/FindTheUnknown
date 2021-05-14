@@ -25,6 +25,11 @@ public class Char4 {
         this.weight4 = weight4;
         this.height4 = height4;
     }
+
+    public String getCharName4() {
+        return charName4;
+    }
+
     @Override
     public String toString(){
         return "Name: " + charName4 + "\nGender: " + gender4 + "\nAge: " + age4 + "\nBirthplace: " + birthplace4 + "\nWeight: " + weight4 + "kg\nHeight: " + height4 + "m";
