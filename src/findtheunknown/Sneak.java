@@ -67,7 +67,7 @@ public class Sneak {
             }
 
         }
-          /*writing codes to the console*/
+        /*writing codes to the console*/
 
         String thisCode2 = "89237";
 
@@ -108,13 +108,61 @@ public class Sneak {
                 System.out.println("You made too much noise! restarting mission!");
                 sneakBegin();
             }
+            System.out.println("You are now in the room");
+
+            System.out.println("");
+
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
+
+            System.out.println("There is the 1 bodyguard next to the target you need to take him out.");
+
+
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
         }
 
+        System.out.println();
+        System.out.println("Now select what do you want to do!");
+        System.out.println();
+        System.out.println("Fight: Try to fight him");
+        System.out.println("");
+        System.out.println("Shoot: Shoot the bodyguard with a pistol");
+        System.out.println("");
+        System.out.println("Threaten: Threaten the bodyguard with the gun and take the target");
+
+        Story selectDoing = new Story();
+
+        String select = sc.nextLine();
+
+        switch (select) {
+            case "Fight":
+                System.out.println("You selected to fight the bodyguard");
+                Fight f = new Fight();
+                f.startF();
+
+                break;
+            case "Shoot":
+                System.out.println("You selected to shoot the bodyguard with a pistol");
+                Shootthebodyguard s = new Shootthebodyguard();
+                s.startShooting();
+
+                break;
+            case "Threaten":
+                System.out.println("You selected to threaten the bodyguard with the gun and take the target");
+                Threaten t = new Threaten();
+                t.startThreaten();
+
+                break;
 
 
-
-
-
+        }
     }
 }
 
