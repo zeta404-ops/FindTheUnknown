@@ -34,12 +34,16 @@ public class FindTheUnknown {
 /*
 
         /*story telling*/
-
+/*
         Story sc = new Story();
         sc.StoryBegin();
-
-
-
+ */
+        /*
+        Action start = new Action();
+        start.fightBegin();
+         */
+        Completed comp = new Completed();
+        comp.YouCompleted();
 
     }
 
