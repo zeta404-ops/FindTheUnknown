@@ -17,21 +17,21 @@ public class Fight {
             System.out.println("Press f to punch");
         }
             String f = sc.nextLine();
-        System.out.println("punch!");
+        System.out.println("you hit!");
             if (f.equals(f)) {
-                System.out.println("you hit!");
+                System.out.println("punch! by pressing f");
             }
                 String b = sc.nextLine();
-        System.out.println("punch!");
+        System.out.println("you hit!");
                 if (b.equals(f)) {
-                    System.out.println("you hit!");
+                    System.out.println("punch! by pressing f");
                 }
                     String c = sc.nextLine();
-        System.out.println("punch!");
+        System.out.println("you hit!");
                     if (c.equals(f)) {
-                        System.out.println("you hit!");
+                        System.out.println("punch again! by pressing f");
                     }
-        System.out.println("punch!");
+        System.out.println("punch! by pressing f");
                         String d = sc.nextLine();
                         if (d.equals(f)) {
                             System.out.println("Now he is unconscious!");
@@ -66,7 +66,10 @@ public class Fight {
                             String l = sc.nextLine();
 
                             if (l.equals("e")) {
-                            System.out.println("Driving back to the HQ!");
+                            System.out.println("Driving back to the HQ! ETA 1 min");
+
+
+
 
             }
         }

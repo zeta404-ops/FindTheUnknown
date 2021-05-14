@@ -37,13 +37,17 @@ public class FindTheUnknown {
 /*
         Story sc = new Story();
         sc.StoryBegin();
- */
-        /*
+
+
         Action start = new Action();
         start.fightBegin();
-         */
+
         Completed comp = new Completed();
         comp.YouCompleted();
+        */
+
+        Sneak ss = new Sneak();
+        ss.sneakBegin();
 
     }
 
