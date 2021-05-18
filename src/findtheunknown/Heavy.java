@@ -105,10 +105,9 @@ public class Heavy {
 
         System.out.println("identification successful the seal member is ");
 
-        Char2 id = new Char2("Dominique Giacinta","Female",31,"Mexico",86.03,1.52);
-        id.getCharName2();
-        System.out.println();
-        System.out.println(id.getCharName2());
+       CharacterAdd charAdding = new CharacterAdd();
+       Character dominique = charAdding.dominique;
+        System.out.println(charAdding.dominique.charName);
 
 
         /* forward command*/

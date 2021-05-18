@@ -1,10 +1,10 @@
 package findtheunknown;
-
+/*
 public class Char2 {
 
 
-    /*char 2*/
 
+ //char 2
     String charName2 = "Dominique Giacinta";
 
     String gender2 = "Female";
@@ -37,5 +37,16 @@ public class Char2 {
     @Override
     public String toString(){
         return "Name: " + charName2 + "\nGender: " + gender2 + "\nAge: " + age2 + "\nBirthplace: " + birthplace2 + "\nWeight: " + weight2 + "kg\nHeight: " + height2 + "m";
+
     }
+}
+
+ */
+
+public class CharacterAdd{
+
+    Character dominique = new Character("Dominique Giacinta","Female",31, "Mexico",86.03, 1.52);
+
+
+
 }

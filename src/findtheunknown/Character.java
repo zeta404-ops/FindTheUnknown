@@ -1,5 +1,5 @@
 package findtheunknown;
-
+/*
 public class Char1 {
 
     String charName1 = "Russ Brown";
@@ -28,4 +28,33 @@ public class Char1 {
     public String toString(){
         return "Name: " + charName1 + "\nGender: " + gender1 + "\nAge: " + age1 + "\nBirthplace: " + birthplace1 + "\nWeight: " + weight1 + "kg\nHeight: " + height1 + "m";
     }
+    }
+
+
+ */
+
+   public class Character {
+
+        String charName;
+        String gender;
+        int age;
+        String birthplace;
+        double weight;
+        double height;
+
+        public Character(String charName, String gender, int age, String birthplace, double weight, double height) {
+
+            this.charName = charName;
+            this.gender = gender;
+            this.age = age;
+            this.birthplace = birthplace;
+            this.weight = weight;
+            this.height = height;
+
+
+        }
+        @Override
+        public String toString(){
+            return "Name: " + charName + "\nGender: " + gender + "\nAge: " + age + "\nBirthplace: " + birthplace + "\nWeight: " + weight + "kg\nHeight: " + height + "m";
+        }
     }
