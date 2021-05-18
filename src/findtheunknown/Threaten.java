@@ -6,7 +6,7 @@ public class Threaten {
     Scanner sc = new Scanner(System.in);
 
 
-    public void startThreaten(){
+    public void startThreaten() {
 
         System.out.println("Press e to take out the gun and aim at the bodyguard");
 
@@ -33,20 +33,20 @@ public class Threaten {
         String x = sc.nextLine();
         if (x.equals(x)) {
             System.out.println("Now you need to walk him out the backdoor");
-        }  else {
-        System.out.println("Please write the letter exactly like how its written!");
+        } else {
+            System.out.println("Please write the letter exactly like how its written!");
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
 
-        System.out.println("press s to go slowly out the door with the guard!");
+            System.out.println("press s to go slowly out the door with the guard!");
             String s = sc.nextLine();
             if (s.equals(s)) {
                 System.out.println("You escaped with the quard!");
-            }  else {
+            } else {
                 System.out.println("Please write the letter exactly like how its written!");
 
                 try {
@@ -55,6 +55,8 @@ public class Threaten {
                     Thread.currentThread().interrupt();
                 }
 
-                System.out.println("Mission succesful!");
+                System.out.println("Mission successful!");
+            }
+        }
     }
 }

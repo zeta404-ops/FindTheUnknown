@@ -175,7 +175,7 @@ public class Story {
 
         }
         try {
-            Thread.sleep(120000);
+            Thread.sleep(20000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
