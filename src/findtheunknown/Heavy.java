@@ -59,7 +59,7 @@ public class Heavy {
             System.out.print("Press e to shoot the warehouse and the body guards!");
             String skan = sc.nextLine();
 
-            if (shootTw.equals(skan)) {
+            if (skan.equals("e")) {
                 System.out.println();
                 System.out.println("Shooting the warehouse and the body guards!!!");
                 break;
