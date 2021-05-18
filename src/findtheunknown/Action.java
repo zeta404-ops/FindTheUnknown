@@ -24,7 +24,7 @@ public class Action {
         Story selectDoing = new Story();
 
         String select = sc.nextLine();
-
+          //selection
         switch(select){
             case "Heavy":
                 System.out.println("You chose to heavy gun the warehouse");
