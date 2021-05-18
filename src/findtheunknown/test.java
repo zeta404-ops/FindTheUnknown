@@ -29,9 +29,11 @@ public class test {
         }
         System.out.println("identification successful the seal member is ");
 
-        CharacterTest charAdding = new CharacterTest();
+        CharacterAdd charAdding = new CharacterAdd();
         Character dominique = charAdding.dominique;
         System.out.println(charAdding.dominique.charName);
+
+        System.out.println(charAdding.benjamin.charName +" is heavily wounded he won't make it");
 
     }
 

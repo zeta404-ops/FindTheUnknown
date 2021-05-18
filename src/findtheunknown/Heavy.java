@@ -104,7 +104,7 @@ public class Heavy {
         }
 
         System.out.println("identification successful the seal member is ");
-
+     //made an charadd to call the strings without making other classes
        CharacterAdd charAdding = new CharacterAdd();
        Character dominique = charAdding.dominique;
         System.out.println(charAdding.dominique.charName);
@@ -138,11 +138,9 @@ public class Heavy {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
+         //calling benjamin's name from another class
+        System.out.println(charAdding.benjamin.charName +" is heavily wounded he won't make it");
 
-        Char4 id2 = new Char4("Benjamin Leonardo","Male",27,"UK",87.03,1.90);
-        id2.getCharName4();
-        System.out.println();
-        System.out.println(id2.getCharName4()+" is heavily wounded he won't make it");
 
         try {
             Thread.sleep(2000);

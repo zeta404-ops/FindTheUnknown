@@ -136,12 +136,10 @@ public class Story {
                     break;
                 } else {
                     System.out.println("Please press f exactly like how its written!");
-
-
                 }
-
             }
         }
+
 
         try {
             Thread.sleep(11000);
@@ -149,7 +147,9 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
+
         System.out.println("You are on the ground lets do this!");
+
 
         try {
             Thread.sleep(3000);
@@ -169,11 +169,10 @@ public class Story {
                 break;
             } else {
                 System.out.println("Please press f exactly like how its written!");
-
-
             }
-
         }
+
+
         try {
             Thread.sleep(20000);
         } catch (InterruptedException ex) {

@@ -1,6 +1,5 @@
 package findtheunknown;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Fight {
@@ -67,9 +66,6 @@ public class Fight {
 
                             if (l.equals("e")) {
                             System.out.println("Driving back to the HQ! ETA 1 min");
-
-
-
 
             }
         }

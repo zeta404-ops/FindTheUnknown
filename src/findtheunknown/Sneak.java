@@ -16,6 +16,7 @@ public class Sneak {
         System.out.println();
         System.out.println("Okay let's start the plan!");
 
+
         try {
             Thread.sleep(3000);
         } catch (InterruptedException ex) {

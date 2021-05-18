@@ -12,8 +12,6 @@ public class ExCia {
     double height5 = 1.90;
 
 
-
-
     public ExCia(String charName5, String gender5, String birthplace5, double weight5, double height5){
 
         this.charName5 = charName5;
