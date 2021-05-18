@@ -104,7 +104,7 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
-        System.out.println("Be ready to jump, because its going to be a ruff way down!");
+        System.out.println("Be ready to jump, because its going to be a rough way down!");
 
         try {
             Thread.sleep(3000);

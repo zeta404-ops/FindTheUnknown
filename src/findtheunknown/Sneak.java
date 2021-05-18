@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class Sneak {
 
     Scanner sc = new Scanner(System.in);
-    private Object String;
 
     public void sneakBegin() {
 
