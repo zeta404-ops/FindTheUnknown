@@ -30,6 +30,17 @@ public class Shootthebodyguard {
             Thread.currentThread().interrupt();
         }
         System.out.println("Mission Unsuccessful! Try again.");
+        System.out.println(" ___ ___             _______       __ __          __ \n" +
+                "|   Y   .-----.--.--|   _   .---.-|__|  .-----.--|  |\n" +
+                "|   1   |  _  |  |  |.  1___|  _  |  |  |  -__|  _  |\n" +
+                " \\_   _/|_____|_____|.  __) |___._|__|__|_____|_____|\n" +
+                "  |:  |             |:  |                            \n" +
+                "  |::.|             |::.|                            \n" +
+                "  `---'             `---'   ");
+
+        Story startAgain = new Story();
+        startAgain.StoryBegin();
+
     }
 
 

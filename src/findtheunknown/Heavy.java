@@ -8,6 +8,29 @@ public class Heavy {
 
     public void heavyBegin() {
 
+        System.out.println("      _________\n" +
+                "         /'        /|\n" +
+                "        /         / |_\n" +
+                "       /         /  //|\n" +
+                "      /_________/  ////|\n" +
+                "     |   _ _    | 8o////|\n" +
+                "     | /'// )_  |   8///|\n" +
+                "     |/ // // ) |   8o///|\n" +
+                "     / // // //,|  /  8//|\n" +
+                "    / // // /// | /   8//|\n" +
+                "   / // // ///__|/    8//|\n" +
+                "  /.(_)// /// |       8///|\n" +
+                " (_)' `(_)//| |       8////|___________\n" +
+                "(_) /_\\ (_)'| |        8///////////////\n" +
+                "(_) \\\"/ (_)'|_|         8/////////////\n" +
+                " (_)._.(_) d' Hb         8oooooooopb'\n" +
+                "   `(_)'  d'  H`b\n" +
+                "         d'   `b`b\n" +
+                "        d'     H `b\n" +
+                "       d'      `b `b\n" +
+                "      d'           `b\n" +
+                "     d'             `b");
+
         /*heavy gunning texts*/
         System.out.println();
         System.out.println("Bringing the heavy gun classes select one below!");
@@ -15,10 +38,11 @@ public class Heavy {
         /*selecting heavy guns*/
         System.out.println();
         System.out.println("Now select which heavy gun do you want to use!");
-        System.out.println();
+        System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("1: RPK 7.62 / 2x 75-round drum magazine");
         System.out.println("2: AEK-999 7.62 / 2x 100-round box contained");
         System.out.println("3: FN Minimi 5.56 / 1x 200-round belt contained");
+        System.out.println("\n--------------------------------------------------------------\n");
 
         Heavy selectHeavyGun = new Heavy();
 
@@ -104,7 +128,7 @@ public class Heavy {
         }
 
         System.out.println("identification successful the seal member is ");
-     //made an charadd to call the strings without making other classes
+     //made an char adding to call the strings without making other classes
        CharacterAdd charAdding = new CharacterAdd();
        Character dominique = charAdding.dominique;
         System.out.println(charAdding.dominique.charName);
@@ -160,8 +184,18 @@ public class Heavy {
         System.out.println("Your teammate killed last body guard! its now you and two teammates with the ex cia left");
         System.out.println("He wouldn't give up");
         System.out.println();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
         System.out.println("You shot him and he is now dead!");
         System.out.println();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
         System.out.println("You successfully completed the mission");
         System.exit(0);
 

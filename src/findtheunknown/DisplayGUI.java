@@ -16,7 +16,7 @@ public  class DisplayGUI {
            JPanel picturePanel;
            JLabel pictureLabel;
            ImageIcon image;
-           JPanel exitPanel;
+
 
     public static void main(String[] args) {
 
