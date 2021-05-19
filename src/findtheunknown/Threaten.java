@@ -55,7 +55,10 @@ public class Threaten {
                     Thread.currentThread().interrupt();
                 }
 
-                System.out.println("Mission successful!");
+                System.out.println(" __  __ _       _          ___                       __      _ \n" +
+                        "|  \\/  (_)_____(_)___ _ _ / __|_  _ __ __ ___ ______/ _|_  _| |\n" +
+                        "| |\\/| | (_-<_-< / _ \\ ' \\\\__ \\ || / _/ _/ -_|_-<_-<  _| || | |\n" +
+                        "|_|  |_|_/__/__/_\\___/_||_|___/\\_,_\\__\\__\\___/__/__/_|  \\_,_|_|");
 
                 //completion certify
                 Completed comp = new Completed();

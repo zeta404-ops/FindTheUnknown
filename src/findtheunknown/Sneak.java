@@ -128,7 +128,7 @@ public class Sneak {
             Thread.currentThread().interrupt();
         }
 
-        System.out.println();
+        System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("Now select what do you want to do!");
         System.out.println();
         System.out.println("Fight: Try to fight him");
@@ -136,6 +136,7 @@ public class Sneak {
         System.out.println("Shoot: Shoot the bodyguard with a pistol");
         System.out.println("");
         System.out.println("Threaten: Threaten the bodyguard with the gun and take the target");
+        System.out.println("\n--------------------------------------------------------------\n");
 
         Story selectDoing = new Story();
 

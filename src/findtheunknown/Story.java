@@ -15,6 +15,7 @@ public class Story {
                 "|  _| | | '_ \\ / _` | | | | '_ \\ / _ \\ | | | '_ \\| |/ / '_ \\ / _ \\ \\ //\\ / / '_ \\ \n" +
                 "| |   | | | | | (_| | | | | | | |  __/ |_| | | | |   <| | | | (_) \\ V  V /| | | |\n" +
                 "\\_|   |_|_| |_|\\__,_| \\_/ |_| |_|\\___|\\___/|_| |_|_|\\_\\_| |_|\\___/ \\_/\\_/ |_| |_|");
+        System.out.println("\n--------------------------------------------------------------\n");
 
         System.out.println("Now let's begin");
         try
@@ -44,7 +45,7 @@ public class Story {
             Thread.currentThread().interrupt();
         }
         System.out.println("1");
-
+        System.out.println("\n--------------------------------------------------------------\n");
         try
         {
             Thread.sleep(1000);
@@ -58,7 +59,7 @@ public class Story {
 
               /*time and place*/
 
-
+        System.out.println("\n--------------------------------------------------------------\n");
 
         System.out.println("Place: Norlisk ");
         try {
@@ -67,8 +68,8 @@ public class Story {
             Thread.currentThread().interrupt();
         }
         System.out.println("Time: 12.30pm");
+        System.out.println("\n--------------------------------------------------------------\n");
 
-        System.out.println();
 
         try {
             Thread.sleep(2000);
@@ -78,7 +79,7 @@ public class Story {
 
 
                /*texts*/
-
+        System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("We are the SEAL Team Six-Bravo");
         try {
             Thread.sleep(3000);
@@ -93,7 +94,7 @@ public class Story {
             Thread.currentThread().interrupt();
         }
         System.out.println("He went missing and now he is a thread to the nation");
-
+        System.out.println("\n--------------------------------------------------------------\n");
         try {
             Thread.sleep(4000);
         } catch (InterruptedException ex) {
@@ -101,7 +102,7 @@ public class Story {
         }
 
         System.out.println();
-
+        System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("SEAL team six-bravo is loading to the plane with 4 of the best SEAL members");
 
         try {
@@ -111,7 +112,7 @@ public class Story {
         }
 
         System.out.println("Be ready to jump, because its going to be a rough way down!");
-
+        System.out.println("\n--------------------------------------------------------------\n");
         try {
             Thread.sleep(3000);
         } catch (InterruptedException ex) {
@@ -226,10 +227,11 @@ public class Story {
         System.out.println();
         System.out.println("Choose a class to fight with by typing the number of the classes from 1-3.");
         System.out.println();
+        System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("First class is M4A4");
         System.out.println("Second class is Scar-L");
         System.out.println("Third class is HK17");
-
+        System.out.println("\n--------------------------------------------------------------\n");
          Story selectClass = new Story();
 
         int Story = selectClass.sc.nextInt(4);
