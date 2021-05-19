@@ -56,6 +56,11 @@ public class Threaten {
                 }
 
                 System.out.println("Mission successful!");
+
+                //completion certify
+                Completed comp = new Completed();
+                comp.YouCompleted();
+
             }
         }
     }

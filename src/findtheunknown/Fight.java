@@ -66,6 +66,8 @@ public class Fight {
 
                             if (l.equals("e")) {
                             System.out.println("Driving back to the HQ! ETA 1 min");
+                                Completed comp = new Completed();
+                                comp.YouCompleted();
 
             }
         }
