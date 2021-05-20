@@ -55,6 +55,28 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
+//choose a main char
+        CharacterAdd charAdding = new CharacterAdd();
+        System.out.println();
+        System.out.println("Choose a main character from 1-2.");
+        System.out.println();
+        System.out.println("\n--------------------------------------------------------------\n");
+        System.out.println(charAdding.russ.charName + "\nAge: " + charAdding.russ.age);
+        System.out.println(charAdding.dimitri.charName + "\nAge: " + charAdding.dimitri.age);
+        System.out.println("\n--------------------------------------------------------------\n");
+
+        Story selectChar= new Story();
+
+        int selectChar1 = selectChar.sc.nextInt();
+
+        switch(selectChar1) {
+            case 1:
+                System.out.println("Your chosen character now is " + charAdding.russ.charName + " Here is full info:\n" + charAdding.russ);
+                break;
+            case 2:
+                System.out.println("Your chosen character now is " + charAdding.dimitri.charName + " Here is full info:\n" + charAdding.dimitri);
+                break;
+        }
 
 
               /*time and place*/
