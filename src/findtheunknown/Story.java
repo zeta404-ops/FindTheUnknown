@@ -15,6 +15,7 @@ public class Story {
                 "|  _| | | '_ \\ / _` | | | | '_ \\ / _ \\ | | | '_ \\| |/ / '_ \\ / _ \\ \\ //\\ / / '_ \\ \n" +
                 "| |   | | | | | (_| | | | | | | |  __/ |_| | | | |   <| | | | (_) \\ V  V /| | | |\n" +
                 "\\_|   |_|_| |_|\\__,_| \\_/ |_| |_|\\___|\\___/|_| |_|_|\\_\\_| |_|\\___/ \\_/\\_/ |_| |_|");
+
         System.out.println("\n--------------------------------------------------------------\n");
 
         System.out.println("Now let's begin");
@@ -55,7 +56,7 @@ public class Story {
             Thread.currentThread().interrupt();
         }
 
-//choose a main char
+           //choose a main char
         CharacterAdd charAdding = new CharacterAdd();
         System.out.println();
         System.out.println("Choose a main character from 1-2.");
@@ -238,8 +239,6 @@ public class Story {
                 break;
             } else {
                 System.out.println("Please press n exactly like how its written!");
-
-
             }
         }
 

@@ -42,10 +42,10 @@ public class Threaten {
                 Thread.currentThread().interrupt();
             }
 
-            System.out.println("press s to go slowly out the door with the guard!");
+            System.out.println("press s to go slowly out of the door with the guard!");
             String s = sc.nextLine();
             if (s.equals(s)) {
-                System.out.println("You escaped with the quard!");
+                System.out.println("You escaped with the guard!");
             } else {
                 System.out.println("Please write the letter exactly like how its written!");
 
@@ -54,6 +54,8 @@ public class Threaten {
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
                 }
+
+                System.out.println("The Ex Cia and their team gave up from now on!");
 
                 System.out.println(" __  __ _       _          ___                       __      _ \n" +
                         "|  \\/  (_)_____(_)___ _ _ / __|_  _ __ __ ___ ______/ _|_  _| |\n" +

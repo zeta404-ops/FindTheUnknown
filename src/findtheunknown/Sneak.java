@@ -67,6 +67,14 @@ public class Sneak {
             }
 
         }
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+
+
         /*writing codes to the console*/
 
         String thisCode2 = "89237";
