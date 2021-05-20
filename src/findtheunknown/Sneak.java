@@ -2,8 +2,6 @@ package findtheunknown;
 
 
 
-import java.lang.invoke.SwitchPoint;
-
 import java.util.Scanner;
 
 public class Sneak {
@@ -159,7 +157,7 @@ public class Sneak {
                 break;
             case "Shoot":
                 System.out.println("You selected to shoot the bodyguard with a pistol");
-                Shootthebodyguard s = new Shootthebodyguard();
+                ShootTheBodyGuard s = new ShootTheBodyGuard();
                 s.startShooting();
 
                 break;

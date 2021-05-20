@@ -76,8 +76,6 @@ public class Heavy {
 
         /*shoot the warehouse*/
 
-        String shootTw= "e";
-
         while (true) {
             System.out.println();
             System.out.print("Press e to shoot the warehouse and the body guards!");

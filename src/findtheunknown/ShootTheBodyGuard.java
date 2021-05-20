@@ -3,7 +3,7 @@ package findtheunknown;
 
 import java.util.Scanner;
 
-public class Shootthebodyguard {
+public class ShootTheBodyGuard {
 
     Scanner sc = new Scanner(System.in);
     public void startShooting(){
