@@ -13,6 +13,8 @@ public class Fight {
 
         System.out.println("Press c to sprint towards him");
 
+        //scanners for inputs just like for every others
+
         String select = sc.nextLine();
 
         if (select.equals(select)) {
@@ -66,7 +68,7 @@ public class Fight {
                             System.out.println("Press e to open the door and run back to the car!");
 
                             String l = sc.nextLine();
-
+                            //if the key pressed equals e = prints a message
                             if (l.equals("e")) {
                             System.out.println("Driving back to the HQ! ETA 1 min");
 
