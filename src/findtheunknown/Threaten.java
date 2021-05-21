@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Threaten {
     Scanner sc = new Scanner(System.in);
 
+    //this class is an option from previous classes
 
     public void startThreaten() {
+
+        //asking for input while making the fight scene
 
         System.out.println("Press e to take out the gun and aim at the bodyguard");
 
@@ -29,7 +32,7 @@ public class Threaten {
             Thread.currentThread().interrupt();
         }
         System.out.println("press x to aim the guard!");
-
+        //if else for inputs
         String x = sc.nextLine();
         if (x.equals(x)) {
             System.out.println("Now you need to walk him out the backdoor");

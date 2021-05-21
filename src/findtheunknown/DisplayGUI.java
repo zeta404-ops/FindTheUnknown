@@ -8,6 +8,10 @@ import java.awt.event.ActionListener;
 
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
+
+//this class was made to display the game but haven't developed yet.
+
+
 public  class DisplayGUI {
 
           //panels and displays for image
@@ -52,7 +56,7 @@ public  class DisplayGUI {
         pictureLabel = new JLabel();
 
         //getting the image from Images directory
-        image = new ImageIcon(".//Images//ftu.png");
+        image = new ImageIcon(".Images/ftu.png");
 
         //calling the Image method
         pictureLabel.setIcon(image);

@@ -2,6 +2,9 @@ package findtheunknown;
 
 import java.util.Scanner;
 
+
+// this is a fighting scene class
+
 public class Fight {
 
     Scanner sc = new Scanner(System.in);

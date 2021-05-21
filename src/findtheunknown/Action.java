@@ -9,6 +9,9 @@ public class Action {
     public void fightBegin() {
     {
 
+        //this class is for selecting an action and continuing from here
+
+
            /*first text of action*/
         System.out.println();
         System.out.println("You chose action! Your team is standing by.");

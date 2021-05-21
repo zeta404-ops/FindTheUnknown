@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Heavy {
 
+
+    //this class is an option which can be selected from previous classes
+
     Scanner sc = new Scanner(System.in);
 
     public void heavyBegin() {
@@ -194,6 +197,8 @@ public class Heavy {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
+
+        //message for completing the game
         System.out.println("You successfully completed the mission");
         System.exit(0);
 

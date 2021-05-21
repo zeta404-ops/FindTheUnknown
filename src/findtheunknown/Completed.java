@@ -1,6 +1,6 @@
 package findtheunknown;
 
-
+// an thank you message from US to the player for playing the game
 
 public class Completed {
     public void YouCompleted(){

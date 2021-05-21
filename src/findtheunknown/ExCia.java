@@ -1,5 +1,7 @@
 package findtheunknown;
 
+//this class is a info of the Enemy which can later be used while extending our story
+
 public class ExCia {
 
     String charName5 = "Unknown";

@@ -7,6 +7,8 @@ public class Story {
 
     Scanner sc = new Scanner(System.in);
 
+    //the story class
+
     public void StoryBegin() {
 /* beginning*/
         System.out.println("______ _           _ _____ _          _   _       _                              \n" +
@@ -18,6 +20,7 @@ public class Story {
 
         System.out.println("\n--------------------------------------------------------------\n");
 
+        //this is where the game begins static texts
         System.out.println("Now let's begin");
         try
         {
@@ -150,7 +153,7 @@ public class Story {
         }
 
 
-           /*small actions*/
+           /*small actions for jumping and others*/
 
 
 

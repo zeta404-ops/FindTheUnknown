@@ -2,6 +2,9 @@ package findtheunknown;
 
    public class Character {
 
+       //this class is all the methods that are made for characters to have a toString and info
+
+
         String charName;
         String gender;
         int age;

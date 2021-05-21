@@ -1,6 +1,8 @@
 package findtheunknown;
 
 
+//this class is just for testing methods and random things
+
 
 import java.util.Scanner;
 

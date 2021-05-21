@@ -2,6 +2,8 @@ package findtheunknown;
 
 import java.util.Scanner;
 
+//this class was for educational purposes only!
+
 public class ZDontMindThisItsOnlyExampleGame {
 
     Scanner myScanner = new Scanner(System.in);

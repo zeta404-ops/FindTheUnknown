@@ -7,6 +7,9 @@ package findtheunknown;
  */
 public class FindTheUnknown {
 
+
+    //this class is the main class to run the game
+
     /**
      * @param args the command line arguments
      */

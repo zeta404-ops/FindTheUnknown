@@ -133,7 +133,7 @@ public class Sneak {
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }
-
+        //selection of what do the player wants to do from now on!
         System.out.println("\n--------------------------------------------------------------\n");
         System.out.println("Now select what do you want to do!");
         System.out.println();
@@ -144,6 +144,7 @@ public class Sneak {
         System.out.println("Threaten: Threaten the bodyguard with the gun and take the target");
         System.out.println("\n--------------------------------------------------------------\n");
 
+//making an method to select with switch case
         Story selectDoing = new Story();
 
         String select = sc.nextLine();
